@@ -51,12 +51,12 @@ text = [
     'Finally, the machine learning classifier and antigenic score will determine the final probable epitopes, as well as their starting and ending positions.']
 
 text1 = [
-   'Our advanced epitope prediction framework leverages three robust models for cancer immunotherapy. By focusing on immunogenicity, we precisely forecast epitopes and align them with HLAs through advanced machine learning techniques and curated datasets.',
-   'Extensive evaluation shows our method outperforms existing techniques, emphasizing the ensemble model's efficiency in fast-tracking epitope identification and vaccine design for cancer treatment.',
-   'The target protein is segmented, and peptide characteristics are extracted.',
-   'Based on binary annotations, peptides are categorized as either epitopes or non-epitopes.',
-   'For these peptides, antigenicity scores are calculated, and their HLA bindings are predicted.',
-   'In conclusion, the machine learning classifier and antigenicity score pinpoint the most likely epitopes, along with their start and end locations.']
+    'Our advanced epitope prediction framework leverages three robust models for cancer immunotherapy. By focusing on immunogenicity, we precisely forecast epitopes and align them with HLAs through advanced machine learning techniques and curated datasets.',
+    'Extensive evaluation shows our method outperforms existing techniques, emphasizing the ensemble model's efficiency in fast-tracking epitope identification and vaccine design for cancer treatment.',
+    'The target protein is segmented, and peptide characteristics are extracted.',
+    'Based on binary annotations, peptides are categorized as either epitopes or non-epitopes.',
+    'For these peptides, antigenicity scores are calculated, and their HLA bindings are predicted.',
+    'In conclusion, the machine learning classifier and antigenicity score pinpoint the most likely epitopes, along with their start and end locations.']
 
 text2 = [
    'In our integrated pipeline for epitope prediction in cancer immunotherapy, three distinct models are utilized. We prioritize targets based on immunogenicity, accurately predict epitopes, and tailor HLA binding using sophisticated machine learning algorithms and selected datasets.',
