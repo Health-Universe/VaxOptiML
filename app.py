@@ -3000,7 +3000,7 @@ def main():
     elif page == "About":
         st.title("About Us")
         st.write("""
-    ## About This App
+    ## Motivation
     In the quest to enhance cancer immunotherapy, epitope prediction plays a pivotal role in identifying potential targets for vaccine development. In this study, we present an integrated pipeline comprising three distinct models aimed at epitope prediction and prioritization for cancer immunotherapy. 
 
     ## Contact Information
