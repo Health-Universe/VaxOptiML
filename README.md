@@ -36,7 +36,8 @@ Inputs Requirements:
    
 
         Preliminary Outputs:
-   ![Screenshot 2024-05-09 135205](https://github.com/sripad2020/aaa/assets/59697056/bbe98dba-cc77-46ce-82a2-e3c21baca954)
+![Screenshot 2024-05-09 135205](https://github.com/sripad2020/aaa/assets/59697056/bbe98dba-cc77-46ce-82a2-e3c21baca954)
+
 
 The given protein sequence will be chunked into peptides (probable epitopes)  and feature of those peptides will be generated.
 
@@ -47,10 +48,13 @@ The given protein sequence will be chunked into peptides (probable epitopes)  an
 The input protein sequence features will be extracted
 
 
+<img width="551" alt="Screenshot 2024-06-27 121753" src="https://github.com/Genomicsinsights/VaxOptiML/assets/173452018/25b91d9b-eaf0-425c-82c2-6ce951e9ea4a">
+
+
+The Machine Learning Classifier results for chunked epitopes will be generated 
 
 
 <img width="475" alt="image" src="https://github.com/danukumar111999/VaxOptiML/assets/172895426/09a69051-805e-473a-8713-8f24cf3addef">
 
 
-
-This image interprets the final result of epitope with it's K-T score along the HLA'S it binds 
+Final  epitope with it's K-T score along the HLA'S it binds will be generated
