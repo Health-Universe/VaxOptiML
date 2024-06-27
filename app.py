@@ -59,12 +59,12 @@ text1 = [
     'In conclusion, the machine learning classifier and antigenicity score pinpoint the most likely epitopes, along with their start and end locations.']
 
 text2 = [
-   'In our integrated pipeline for epitope prediction in cancer immunotherapy, three distinct models are utilized. We prioritize targets based on immunogenicity, accurately predict epitopes, and tailor HLA binding using sophisticated machine learning algorithms and selected datasets.',
-   'Comprehensive assessments show our method's enhanced performance compared to current techniques, highlighting the effectiveness of our ensemble model in speeding up epitope discovery and vaccine development for cancer immunotherapy.',
-   'The input protein sequence is divided into segments, and peptide features are generated.',
-   'Peptides are classified as either epitopes or non-epitopes based on binary annotations.',
-   'For these peptides, antigenic scores are calculated, and their HLA interactions are predicted.',
-   'Ultimately, the machine learning classifier and antigenic score determine the final probable epitopes, including their start and end positions.']
+    "In our integrated pipeline for epitope prediction in cancer immunotherapy, three distinct models are utilized. We prioritize targets based on immunogenicity, accurately predict epitopes, and tailor HLA binding using sophisticated machine learning algorithms and selected datasets.",
+    "Comprehensive assessments show our method's enhanced performance compared to current techniques, highlighting the effectiveness of our ensemble model in speeding up epitope discovery and vaccine development for cancer immunotherapy.",
+    "The input protein sequence is divided into segments, and peptide features are generated.",
+    "Peptides are classified as either epitopes or non-epitopes based on binary annotations.",
+    "For these peptides, antigenic scores are calculated, and their HLA interactions are predicted.",
+    "Ultimately, the machine learning classifier and antigenic score determine the final probable epitopes, including their start and end positions."]
 
 def main():
     if page == "Home":
