@@ -44,28 +44,27 @@ st.image("logo.png", width=200)
 
 text = [
     'For epitope prediction in cancer immunotherapy, our integrated pipeline uses three models. We prioritize targets based on immunogenicity, precisely anticipate epitopes, and customize HLA pairing using sophisticated machine learning approaches and carefully selected datasets.',
-    'Thorough assessment demonstrates improved performance compared to current methods, and graphic depictions highlight the effectiveness of our ensemble model in accelerating epitope discovery and vaccine development for cancer immunotherapy.',
-    'After the input protein has been chunked, peptide features will be produced.',
+    'Thorough assessment demonstrates improved performance compared to current methods, and highlight the effectiveness of our ensemble model in accelerating epitope discovery and vaccine development for cancer immunotherapy.',
+    'The input protein will be chunked and peptide features will be generated.',
     'On the basis of 0 and 1 annotations, peptides will be classified as either epitopes or non-epitopes.',
-    'For such peptides, antigenic scores will be computed.Those peptides HLAs will be produced.',
-    'Ultimately, the antigenic score and epitope nature will determine the final probable epitopes, as well as their starting and finishing places.']
+    'For such peptides, antigenic scores are computed and HLA bindings are predicted.',
+    'Finally, the machine learning classifier and antigenic score will determine the final probable epitopes, as well as their starting and ending positions.']
 
 text1 = [
-    'Our integrated pipeline makes use of three models for epitope prediction in cancer immunotherapy. Using advanced machine learning techniques and carefully chosen datasets, we correctly predict epitopes, prioritize targets based on immunogenicity, and personalize HLA pairing.',
-    'A thorough evaluation reveals enhanced performance when compared to current methods, and graphic representations illustrate the efficiency of our ensemble model in expediting epitope discovery and vaccine development for cancer immunotherapy.',
-    'After chunking the input protein, peptide features will be generated.',
-    'Peptides will be classed as epitopes or non-epitopes based on their 0 and 1 annotations.',
-    'Antigenic scores for these peptides will be calculated.HLA peptides will be generated.',
-    'Finally, the antigenic score and epitope nature will indicate the most likely epitopes, as well as their starting and ending positions.']
+   'Our advanced epitope prediction framework leverages three robust models for cancer immunotherapy. By focusing on immunogenicity, we precisely forecast epitopes and align them with HLAs through advanced machine learning techniques and curated datasets.',
+   'Extensive evaluation shows our method outperforms existing techniques, emphasizing the ensemble model's efficiency in fast-tracking epitope identification and vaccine design for cancer treatment.',
+   'The target protein is segmented, and peptide characteristics are extracted.',
+   'Based on binary annotations, peptides are categorized as either epitopes or non-epitopes.',
+   'For these peptides, antigenicity scores are calculated, and their HLA bindings are predicted.',
+   'In conclusion, the machine learning classifier and antigenicity score pinpoint the most likely epitopes, along with their start and end locations.']
 
 text2 = [
-    'To anticipate epitopes for cancer immunotherapy, our integrated pipeline uses three models. By employing sophisticated machine learning methods and selective datasets, we are able to accurately forecast epitopes, rank targets according to immunogenicity, and customize HLA pairing.',
-    'A detailed analysis shows improved performance over existing approaches, and visual aids demonstrate our ensemble models effectiveness in accelerating epitope discovery and vaccine development for cancer immunotherapy.',
-    'Peptide features will be created following the chunking of the input protein.',
-    'Peptide features will be created following the chunking of the input protein.Peptides 0 and 1 annotations will determine whether they are considered epitopes or non-epitopes.',
-    'These peptides will have their antigenic scores determined.HLA peptides are going to be produced.',
-    'Ultimately, the epitope nature and antigenic score will provide the most probable epitopes together with their beginning and terminating positions']
-
+   'In our integrated pipeline for epitope prediction in cancer immunotherapy, three distinct models are utilized. We prioritize targets based on immunogenicity, accurately predict epitopes, and tailor HLA binding using sophisticated machine learning algorithms and selected datasets.',
+   'Comprehensive assessments show our method's enhanced performance compared to current techniques, highlighting the effectiveness of our ensemble model in speeding up epitope discovery and vaccine development for cancer immunotherapy.',
+   'The input protein sequence is divided into segments, and peptide features are generated.',
+   'Peptides are classified as either epitopes or non-epitopes based on binary annotations.',
+   'For these peptides, antigenic scores are calculated, and their HLA interactions are predicted.',
+   'Ultimately, the machine learning classifier and antigenic score determine the final probable epitopes, including their start and end positions.']
 
 def main():
     if page == "Home":
